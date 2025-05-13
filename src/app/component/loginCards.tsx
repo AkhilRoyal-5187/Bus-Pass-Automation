@@ -1,5 +1,5 @@
 "use client";
-import {Card, CardHeader, CardBody, Image, divider} from "@heroui/react";
+import {Card, CardHeader, CardBody, Image} from "@heroui/react";
 import { useRouter } from "next/navigation";
 
 interface LoginCardsProps {

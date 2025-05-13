@@ -1,8 +1,4 @@
-import Image from "next/image";
-import { Greet } from "./component/greet";
-import { Counter } from "./component/counter";
-import { StudentLogin } from "./component/studentLogin";
-import { AdminLogin } from "./component/adminLogin";
+
 import LoginCards from "./component/loginCards";
 
 export default function Home() {
