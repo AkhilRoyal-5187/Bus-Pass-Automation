@@ -12,7 +12,7 @@ export const StudentLogin =() => {
             </form>
 
             <div className="mt-4">
-                <p className="text-sm">Don't have an account? <a href="/register" className="text-blue-500">Register</a></p>
+                <p className="text-sm">Don&apos;t have an account? <a href="/register" className="text-blue-500">Register</a></p>
             </div>
         </div>
     )

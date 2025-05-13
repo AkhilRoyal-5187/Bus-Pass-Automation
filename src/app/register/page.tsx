@@ -8,11 +8,10 @@ import React from "react";
 import {
   Form,
   Input,
-  Select,
-  SelectItem,
+  
   Button
 } from "@heroui/react";
-import { CalendarIcon, IdentificationIcon, PhoneIcon, UserIcon, ChevronDownIcon } from '@heroicons/react/20/solid';
+import { CalendarIcon, IdentificationIcon, PhoneIcon, UserIcon } from '@heroicons/react/20/solid';
 
 type FormDataState = {
   name?: string;
