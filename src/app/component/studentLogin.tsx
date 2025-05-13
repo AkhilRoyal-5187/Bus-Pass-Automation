@@ -1,3 +1,5 @@
+
+
 export const StudentLogin =() => {
     return(
 
@@ -8,6 +10,10 @@ export const StudentLogin =() => {
                 <input type="password" placeholder="Password" className="border border-gray-300 p-2 rounded"/>
                 <button type="submit" className="bg-blue-500 text-white p-2 rounded">Login</button>
             </form>
+
+            <div className="mt-4">
+                <p className="text-sm">Don't have an account? <a href="/register" className="text-blue-500">Register</a></p>
+            </div>
         </div>
     )
 };
