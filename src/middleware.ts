@@ -1,5 +1,8 @@
 import { clerkMiddleware } from '@clerk/nextjs/server';
 
+// ✅ Log the Clerk publishable key for debugging
+console.log('Publishable Key:', process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY);
+
 export default clerkMiddleware();
 
 export const config = {
