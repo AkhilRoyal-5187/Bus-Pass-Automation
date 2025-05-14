@@ -21,7 +21,7 @@ export default function Home() {
           />
           <LoginCards 
           imageSrc= "https://cdn-icons-gif.flaticon.com/18863/18863653.gif"
-          label = "Admin"
+          label = "Admin login"
           redirectTO="/admin"
           />
         </div>
