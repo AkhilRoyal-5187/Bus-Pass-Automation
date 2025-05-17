@@ -14,6 +14,17 @@
   --font-mono: var(--font-geist-mono);
 } */
 
+/* In your globals.css or a custom CSS file */
+.bg-content1 {
+  background-color: #f0f0f0; /* Adjust as needed */
+}
+.bg-content2 {
+  background-color: #e0e0e0; /* Adjust as needed */
+}
+.border-primary {
+  border-color: #1d4ed8; /* Example primary color */
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
