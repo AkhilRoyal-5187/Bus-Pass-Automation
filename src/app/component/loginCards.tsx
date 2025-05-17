@@ -1,4 +1,5 @@
 "use client";
+import { div } from "framer-motion/client";
 // import {Card, CardHeader, CardBody, Image} from "@heroui/react";
 import { useRouter } from "next/navigation";
 
@@ -12,15 +13,15 @@ export default function LoginCards({imageSrc, label, redirectTO} : LoginCardsPro
         const router = useRouter();
 
     const handleClick=() =>{
-        console.log("Redirecting to", redirectTO); // <- ✅ debugging line
+        console.log("Redirecting to", redirectTO);
 
         router.push(redirectTO);
     }
   return (
-    <div onClick={handleClick} className="py-4 mt-25 cursor-pointer border rounded-xl shadow bg-white max-w-xs mx-auto">
-      <div className="pb-0 pt-2 px-4 flex flex-col">
-        {/* CardHeader placeholder, can add content here if needed */}
-      </div>
+    <div className="ml-6">
+       <div onClick={handleClick} className="py-4 mt-25 cursor-pointer border rounded-xl shadow bg-white max-w-xs mx-auto">
+      <div className="pb-0 pt-2 px-4 flex flex-col ">
+      
       <div className="overflow-visible py-2">
         <img
           alt="Card background"
@@ -29,7 +30,12 @@ export default function LoginCards({imageSrc, label, redirectTO} : LoginCardsPro
           width={270}
         />
       </div>
-      <p className="text-tiny uppercase font-bold text-center mt-2">{label}</p>
+      </div>
+     
+      
     </div>
+    <p className="text-tiny uppercase font-bold text-center mt-2">{label}</p>
+    </div>
+   
   );
 }
