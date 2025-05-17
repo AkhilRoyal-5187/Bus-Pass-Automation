@@ -11,7 +11,6 @@ import React from "react";
 // If you have a custom cn utility, ensure it's correctly imported.
 import clsx from "clsx";
 import "../globals.css";
-import { div } from "framer-motion/client";
 
 export default function AdminDash() {
   const [users, setUsers] = React.useState([
