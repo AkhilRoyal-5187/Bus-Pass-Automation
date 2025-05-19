@@ -188,7 +188,7 @@ export default async function AdminDash(){
                                                 {user.college}
                                             </td>
                                             <td className="px-6 py-4">
-                                                {user.}
+                                                {user.depo}
                                             </td>
                                         </tr>
                                     )
